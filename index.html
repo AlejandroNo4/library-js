@@ -15,32 +15,32 @@
   </head>
   <body class="body output">
     <div class="main">
-      <p id="demo"></p>
       <h1 class="main-title">My Library.</h1>
-      <form action="#" class="new-book-form d-flex">
+      <button  class="form-btn" id ="new-book-btn" onclick="showForm()">Add a new BOOK!</button>
+      <form  class="new-book-form d-flex" id="new-book-form">
         <div class="m-15">
-          <label for="title">Book title</label><br />
-          <input type="text" class="input" id="title" placeholder="Title" />
+          <label for="book-title">Book title</label><br />
+          <input type="text" class="input" id="book-title" placeholder="Title" />
         </div>
         <div class="d-flex form-group">
           <div class="m-15">
-            <label for="pages">Number of pages</label><br />
+            <label for="book-pages">Number of pages</label><br />
             <input
               type="text"
               class="input"
-              id="pages"
+              id="book-pages"
               placeholder="Number of pages"
             />
           </div>
           <div class="m-15">
-            <label for="status">Did you read it?</label>
+            <label for="book-status">Did you read it?</label>
             <br />
-            <select name="status" id="status">
+            <select name="status" id="book-status">
               <option>Yes</option>
               <option selected>Not yet</option>
             </select>
           </div>
-          <button class="form-btn" onclick="showBookData();">submit</button>
+          <button class="form-btn" onclick="addBookToLibrary();">submit</button>
         </div>
       </form>
       <div class="cards-container d-flex"></div>

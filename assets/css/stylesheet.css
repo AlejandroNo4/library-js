@@ -72,6 +72,7 @@ label {
 }
 
 .new-book-form {
+  display: none;
   width: 80%;
   background-color: var(--secondary-color);
   border-radius: 5px;
