@@ -32,7 +32,7 @@ It is also possible to delete the created cards. The project was created using H
 
        $ cd User/Documents/ibrary-js
 
-- You are done! Now just type "$ code ." and to open the folder in the your VsCode.
+- You are done! Now just type "$ code ." and open the folder in your VsCode.
 
 - If you wish, you can use Live Server to play around with the project. You can see how to use it and install it [here.](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
