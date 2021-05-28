@@ -18,23 +18,28 @@ It is also possible to delete the created cards. The project was created using H
 
 ### Prerequisites
 
-- VsCode
-- Access to a Terminal (and basic knowledge on the usage)
-- GitHub account
+- Access to a Terminal. (Basic knowledge on the usage)
+- GitHub basic knowledge. (Preferable)
+- Visual Studio or another text editor. (Preferable)
 
 ## Download this project!
 
-- You will need a [GitHub](https://github.com/) account. 
+- At first, you have to clone this repository. Open your terminal and paste this without the $ sign. 
 
-- Once you have this, at first, you have to clone the repository, [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) you can find out how to make this possible.
+      $ git clone https://github.com/AlejandroNo4/library-js.git
 
-- Now that you have the repository in your local machine. Change the direction of the local file with your terminal. Just type "$ cd" (without the $ sign) and the path to reach the library-js folder.
+- Now that you have the repository in your local machine. Change the direction of the local file with your terminal. Just type "$ cd" (without the $ sign) and the path to reach the library-js folder.<br/>
+Something like:
 
-       $ cd User/Documents/ibrary-js
+      $ cd User/Documents/ibrary-js
 
-- You are done! Now just type "$ code ." and open the folder in your VsCode.
+- You are done! Now to run the project, just type:
 
-- If you wish, you can use Live Server to play around with the project. You can see how to use it and install it [here.](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+      $ open index.HTML
+
+- Optionally, you are free to open this on your text editor, typing:
+
+      $ code .
 
 <br/>
 
