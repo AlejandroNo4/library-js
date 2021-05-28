@@ -20,7 +20,7 @@ It is also possible to delete the created cards. The project was created using H
 
 - Access to a Terminal. (Basic knowledge on the usage)
 - GitHub basic knowledge. (Preferable)
-- Visual Studio or another text editor. (Preferable)
+- Visual Studio Code with Live Server extension pre-installed.
 
 ## Download this project!
 
@@ -33,13 +33,11 @@ Something like:
 
       $ cd User/Documents/ibrary-js
 
-- You are done! Now to run the project, just type:
-
-      $ open index.HTML
-
-- Optionally, you are free to open this on your text editor, typing:
+- You are done! Now to open the project on your text editor, just type:
 
       $ code .
+
+- Once inside, to run the project, right-click on the index.HTML file and click on open with Live Server. 
 
 <br/>
 
