@@ -1,76 +1,88 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# My Library.
 
-> One paragraph statement about the project.
+> A project where you can create and destroy cards about books.
 
-![screenshot](./app_screenshot.png)
+<br/>
 
-Additional description about the project and its features.
+This project is part of the Microverse curriculum "Javascript." It is made with learning proposes. To practice the creation of objects with constructors and manage basic data from the DOM.
+<br/>
+Here the user can create cards about books with a simple form. Adding Title, the number of pages, and status of reading.
+<br/>
+It is also possible to delete the created cards. The project was created using HTML, CSS, Javascript, and the API, LocalStorage.
 
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+<p align="center">
+  <img src="app_screenshot.png" width="800">
+</p>
 
 ### Prerequisites
 
-### Setup
+- Access to a Terminal. (Basic knowledge on the usage)
+- GitHub basic knowledge. (Preferable)
+- Visual Studio Code with Live Server extension pre-installed.
 
-### Install
+## Download this project!
 
-### Usage
+- At first, you have to clone this repository. Open your terminal and paste this without the $ sign. 
 
-### Run tests
+      $ git clone https://github.com/AlejandroNo4/library-js.git
 
-### Deployment
+- Now that you have the repository in your local machine. Change the direction of the local file with your terminal. Just type "$ cd" (without the $ sign) and the path to reach the library-js folder.<br/>
+Something like:
 
+      $ cd User/Documents/ibrary-js
 
+- You are done! Now to open the project on your text editor, just type:
+
+      $ code .
+
+- Once inside, to run the project, right-click on the index.HTML file and click on open with Live Server. 
+
+<br/>
+
+## Live Version
+
+[Live version here!](https://alejandrono4.github.io/library-js/)
+
+<br/>
+
+## Usage
+
+- Open the live version or download the project and use Live Server. ↑
+
+- Click on "Add a new BOOK!"
+
+- Then a form will appear.
+
+- Fill out the fields and click on "submit."
+
+- Notice that your info appears now in a "card."
+
+- You can delete a card by clicking on "Delete."
+
+## Built With
+
+- Javascript
+- VS Code
+- Git
+- LocalStorage
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@AlejandroNo4](https://github.com/AlejandroNo4)
+- Twitter: [@Alejand80002666](https://twitter.com/Alejand80002666)
+- LinkedIn: [Alejandro Contreras Rodriguez](https://www.linkedin.com/in/alejandro-contreras-rodriguez-b524821b5)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [Issues page](https://github.com/AlejandroNo4/library-js/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.

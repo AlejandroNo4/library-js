@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>My library</title>
+  </head>
+  <body class="body output">
+    <div class="main">
+      <h1 class="main-title">My Library.</h1>
+      <button class="form-btn" id="new-book-btn">Add a new BOOK!</button>
+      <form class="new-book-form d-flex" id="new-book-form">
+        <div class="m-15">
+          <label for="book-title">Book title</label><br />
+          <input
+            type="text"
+            class="input"
+            id="book-title"
+            placeholder="Title"
+          />
+        </div>
+        <div class="d-flex form-group">
+          <div class="m-15">
+            <label for="book-pages">Number of pages</label><br />
+            <input
+              type="text"
+              class="input"
+              id="book-pages"
+              placeholder="Number of pages"
+            />
+          </div>
+          <div class="m-15">
+            <label for="book-status">Did you read it?</label>
+            <br />
+            <select name="status" id="book-status">
+              <option>Yes</option>
+              <option selected>Not yet</option>
+            </select>
+          </div>
+          <button class="form-btn" id="submit-button">submit</button>
+        </div>
+      </form>
+      <div class="cards-container d-flex"></div>
+    </div>
+    <script src="assets/scripts/library-script.js"></script>
+  </body>
+</html>
